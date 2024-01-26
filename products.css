@@ -1,0 +1,53 @@
+body{
+    background-image: url("img/clay-banks-u27Rrbs9Dwc-unsplash.jpg");
+    background-size: cover;
+    /* opacity: +10; */
+}
+#game-1-img{
+    /* width: 100px */
+    height: 300px;
+    display: inline-block;
+}
+/* #gamedetails-1{
+    display: inline-block;
+    align-content: start;
+} */
+.games{
+    /* display: inline-block; */
+    /* align-content: center; */
+    text-align: center;
+    box-sizing: border-box;
+    /* display: table; */
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    color: white;
+}
+.gameimages{
+    height: 300px;
+}
+#game-1{
+    margin-bottom: 10px;
+}
+
+#game-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#game-3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#welcome{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: bold;
+}
+#game-4{
+    margin-top: 10px;
+}
+.game-description-links{
+    text-decoration: none;
+    color: blue;
+}

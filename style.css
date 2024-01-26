@@ -1,5 +1,5 @@
 body {
-  background-image: url("david-marcu-78A265wPiO4-unsplash.jpg");
+  background-image: url("img/david-marcu-78A265wPiO4-unsplash.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -29,4 +29,7 @@ body {
     background-color: rgb(147, 147, 255);
     padding: 5px 50px 5px 50px;
     border-radius: 20px;
+}
+#link{
+  text-decoration: none;
 }
