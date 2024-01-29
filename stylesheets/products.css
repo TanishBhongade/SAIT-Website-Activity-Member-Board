@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.games {
+    display: inline-block;
+}
+
+.gameimages {
+    height: 420px;
+}
+
+#game-1 {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+#game-2 {
+    margin-left: 200px;
+}
+
+#game-3 {
+    margin-left: 230px;
+    margin-top: 10px;
+}
+
+#game-4 {
+    margin-left: 238px;
+    margin-top: 10px;
+}
+
+.nav-elements {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+#navbar {
+    background-color: rgba(128, 128, 128, 0.463);
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+}
+
+#login-link {
+    text-decoration: none;
+    color: white;
+}
+
+#login-element {
+    margin-left: 700px;
+    text-align: right;
+}

@@ -1,36 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My site</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div id="login">
-      <form id="myform">
-        <h3 class="welcome">Welcome back!</h3>
-        <label for="identity">ID</label>
-        <input type="text" id="identity" placeholder="Identity number" />
-        <br />
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Password" />
-        <br />
-        <label for="next_time_log_in">Remember device?</label>
-        <input type="checkbox" id="next_time_log_in" />
-        <br />
-        <button type="submit" id="btn"><a href="products.html" id="link">Submit</a></button>
-      </form>
+    <title>Products</title>
+    <link rel="stylesheet" href="stylesheets/products.css" />
+</head>
+
+<body>
+    <header id="welcome">
+        <div>
+            <nav id="navbar">
+                <ul id="nav-element">
+                    <li class="nav-elements"><a href="products.html" class="navlink">Products</a></li>
+                    <li class="nav-elements"><a href="about.html" class="navlink">About</a></li>
+                    <li class="nav-elements"><a href="Contactus.html" class="navlink">Contact us</a></li>
+                    <li class="nav-elements" id="login-element"><a href="login.html" id="login-link">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div id="game-1" class="games">
+        <a href="game_pages/game-1.html">
+            <img src="img/Grand_Theft_Auto_V.png" alt="GTAV_image" id="game-1-img" class="gameimages" />
+        </a>
+
+        <!-- <div id="gamedetails-1" class="gamedetails">
+            Game: Grand Theft Auto V <br>
+            Devloped by: Rockstar North <br>
+            Publisher: Rockstar Games <br>
+            Prize: &#8377 2321.44 <br>
+            <a href="game_pages/game-1.html" class="game-description-links">Know more</a> <br>
+        </div> -->
     </div>
-  </body>
+    <div id="game-2" class="games">
+        <a href="game_pages/game-2.html">
+            <img src="img/Need_for_Speed_Unbound.png" alt="GTAV_image" id="game-2-img" class="gameimages" />
+        </a>
+
+        <!-- <div id="gamedetails-2" class="gamedetails">
+            Game: Need for Speed Unbound <br>
+            Devloped by: Criterion Games <br>
+            Publisher: Electronic Arts <br>
+            Prize: &#8377 3499 <br>
+            <a href="game_pages/game-2.html" class="game-description-links">Know more</a> <br>
+        </div> -->
+    </div>
+    <div id="game-3" class="games">
+        <a href="game_pages/game-3.html">
+            <img src="img/Hitman_4_artwork.jpg" alt="GTAV_image" id="game-3-img" class="gameimages" />
+        </a>
+
+        <!-- <div id="gamedetails-3" class="gamedetails">
+            Game: Hitman: Blood Money <br>
+            Devloped by: IO Interactive <br>
+            Publisher: Eidos Interactive<br>
+            Prize: &#8377 480 <br>
+            <a href="game_pages/game-3.html" class="game-description-links">Know more</a> <br>
+        </div> -->
+    </div>
+    <div id="game-4" class="games">
+        <a href="game_pages/game-4.html">
+            <img src="img/Assassin's_Creed_Mirage_cover.jpeg" alt="GTAV_image" id="game-4-img" class="gameimages" />
+        </a>
+
+        <!-- <div id="gamedetails-4" class="gamedetails">
+            Game: Assassin's Creed Mirage <br>
+            Devloped by: Ubisoft Bordeaux <br>
+            Publisher: Ubisoft <br>
+            Prize: &#8377 2499 <br>
+            <a href="game_pages/game-4.html" class="game-description-links">Know more</a> <br>
+        </div> -->
+    </div>
+</body>
+
 </html>
