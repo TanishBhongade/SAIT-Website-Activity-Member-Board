@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(0, 0, 0, 0.91);
+}
+#developers{
+    color: rgb(149, 149, 149);
+    font-size: 17px;
+}
+.nav-elements {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+#navbar {
+    background-color: rgba(128, 128, 128, 0.463);
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+}
+
+#login-link {
+    text-decoration: none;
+    color: white;
+}
+
+#login-element {
+    margin-left: 700px;
+    text-align: right;
+}
