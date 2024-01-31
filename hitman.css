@@ -1,0 +1,34 @@
+*{
+    background-color: black;
+color:orange;
+}
+#hitman{
+    
+    height: 140px;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+background-image: url(hitman.jpg);
+background-size: cover;
+background-position: center;}
+
+
+   
+
+#navbar{
+    height: 60px;
+    background-color: rgb(35, 34, 34);
+}
+
+a{
+    margin-right: 100px;
+    color: orangered;
+}
+#logo{
+    color: red
+    
+
+}
+input{
+    color: black;
+}
