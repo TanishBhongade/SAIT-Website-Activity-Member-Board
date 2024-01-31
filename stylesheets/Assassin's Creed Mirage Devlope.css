@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: orange;
+}
+
+#Assassin {
+
+    height: 140px;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../img/Assassin\'s_Creed_Mirage_cover.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+#navbar {
+    height: 60px;
+    background-color: rgba(158, 156, 156, 0.209);
+}
+
+a {
+    margin-right: 100px;
+    color: orangered;
+}
+
+#logo {
+    color: red;
+
+
+}
+
+input {
+    color: black;
+}
+
+#navbar-main{
+    background-color: rgba(128, 128, 128, 0.463);
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+.nav-elements{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.navlink {
+    text-decoration: none;
+    color: white;
+}
+
+#login-link {
+    text-decoration: none;
+    color: white;
+}
